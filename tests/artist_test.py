@@ -7,3 +7,5 @@ class TestTask(unittest.TestCase):
 
     def test_artist_has_name(self):
         self.assertEqual("Rick Astley", self.artist.name)
+
+    # def test_artist_can_be_added(self):
